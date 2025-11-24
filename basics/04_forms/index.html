@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <!-- Form
+     ? Contains user inputs. -->
+    <form action="">
+      <!--* Label -->
+      <label for="email"
+        >Email:
+        <!--
+        * Input
+        ? Attributes are info to control an element. -->
+        <input
+          placeholder="Type your email"
+          type="email"
+          name="email"
+          id="email"
+        />
+      </label>
+      <label for="password">
+        Password:
+        <input
+          placeholder="Type your password"
+          type="password"
+          name="password"
+          id="password"
+        />
+      </label>
+      <button type="submit">Log In</button>
+    </form>
+
+    <h2>Extra Form</h2>
+    <form action="">
+      <label for="textarea">
+        Link:
+        <textarea rows="5" cols="55" name="textarea" id=""></textarea>
+      </label>
+      <br />
+      <label for="checkbox">
+        Is u gay?
+        <input type="checkbox" name="checkbox1" id="checkbox1" />
+        yes
+        <input type="radio" name="radio" id="radio" />
+        YES
+      </label>
+      <br />
+      <label for="select">
+        Bands:
+        <select name="bands" id="select">
+          <option value="nbhd">The Neighbourhood</option>
+          <option value="am">Arctic Monkeys</option>
+          <option value="plph">Polyphia</option>
+          <option value="prmr">Paramore</option>
+        </select>
+      </label>
+      <br />
+      <label for="bday">
+        Birthday:
+        <input type="date" name="bday" id="bday" />
+      </label>
+    </form>
+  </body>
+</html>
