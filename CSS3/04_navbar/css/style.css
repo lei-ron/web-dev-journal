@@ -72,9 +72,59 @@ h2 {
 
 .nav2 {
   background-color: #999999;
-  width: 15%;
-  padding: 5%;
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 4px 4px 0 #ff1c1c;
 }
+
+.nav2 a {
+  display: block;
+  color: #ff1c1c;
+  text-decoration: none;
+  padding: 1rem;
+  width: 100%;
+}
+
 .nav2 ul {
   list-style-type: none;
+}
+.nav2 li {
+  margin-bottom: 1rem;
+}
+
+.nav2 a:hover {
+  background-color: #fff;
+  color: wheat;
+}
+
+.nav2 .login-button:hover {
+  background-color: #9f4f4f;
+  border-color: #c70000;
+}
+
+.nav3 {
+  background-color: #ff1c1c;
+  box-shadow: 4px 4px 0 #fff;
+}
+.nav3 a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  padding: 1rem;
+}
+.nav3 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav3 .dropdown-content {
+  display: none;
+}
+
+.nav3 .dropdown:hover .dropdown-content {
+  position: absolute;
+  display: block;
+  background-color: #f87373;
 }
