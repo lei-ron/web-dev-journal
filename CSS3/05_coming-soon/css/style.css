@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: bisque;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  text-align: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  line-height: 1.5;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 0 #111;
+  max-width: 400px;
+  width: 100%;
+}
+.logo {
+  width: 60px;
+  background-color: cornflowerblue;
+  border-radius: 100%;
+  padding: 6px;
+}
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: lighter;
+  color: cornflowerblue;
+  margin-bottom: 1rem;
+}
+input[type="email"] {
+  margin: 10px 6px auto;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #111;
+  box-shadow: 2px 2px 0 #111;
+}
+
+button {
+  border-radius: 6px;
+  border: 1px solid #111;
+  box-shadow: 2px 2px 0 #111;
+  padding: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+button:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
