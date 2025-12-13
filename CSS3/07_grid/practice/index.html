@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!--! GRID -->
+    <!--* Basic Grid -->
     <h1 class="grid">GRID</h1>
-    <div class="container basic-grid-container">
+    <div class="grid-container basic-grid-container">
       <ul>
         <li>Basic Grid (3x3)</li>
       </ul>
@@ -25,7 +27,8 @@
       </div>
     </div>
 
-    <div class="container sized-grid-container">
+    <!--* Sized Grid -->
+    <div class="grid-container sized-grid-container">
       <ul>
         <li>Different Sizes</li>
       </ul>
@@ -42,7 +45,8 @@
       </div>
     </div>
 
-    <div class="container gapped-grid-container">
+    <!--* Gapped Grid -->
+    <div class="grid-container gapped-grid-container">
       <ul>
         <li>Gaps</li>
       </ul>
@@ -59,7 +63,8 @@
       </div>
     </div>
 
-    <div class="container placed-grid-container">
+    <!--* Placed Grid -->
+    <div class="grid-container placed-grid-container">
       <ul>
         <li>Placements</li>
       </ul>
@@ -71,7 +76,8 @@
       </div>
     </div>
 
-    <div class="container template-grid-container">
+    <!--* Template Grid -->
+    <div class="grid-container template-grid-container">
       <ul>
         <li>Template</li>
       </ul>
@@ -83,6 +89,189 @@
       </div>
     </div>
 
+    <!--* Fit Grid -->
+    <div class="grid-container fit-grid-container">
+      <ul>
+        <li>Auto-fit and Minmax</li>
+      </ul>
+      <div class="container-box fit-grid">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+      </div>
+    </div>
+
+    <!--* Aligned Grid -->
+    <div class="grid-container aligned-grid-container">
+      <ul>
+        <li>Alignments</li>
+      </ul>
+      <div class="container-box aligned-grid">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+      </div>
+    </div>
+
+    <!--* Nested Grid -->
+    <div class="grid-container nested-grid-container">
+      <ul>
+        <li>Nested</li>
+      </ul>
+      <div class="container-box nested-grid">
+        <div class="box">1</div>
+        <div class="box nested-box">
+          <div class="box">2</div>
+          <div class="box">3</div>
+        </div>
+      </div>
+    </div>
+
+    <!--! FLEX -->
+    <!--* Default -->
     <h1 class="flex">FLEX</h1>
+    <div class="flex-container default-flex-container">
+      <ul>
+        <li>Default (Row)</li>
+      </ul>
+      <div class="container-box default-flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+      </div>
+    </div>
+
+    <!--* Column -->
+    <div class="flex-container column-flex-container">
+      <ul>
+        <li>Column</li>
+      </ul>
+      <div class="container-box column-flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+      </div>
+    </div>
+
+    <!--* Justified Between -->
+    <div class="flex-container space-flex-container">
+      <ul>
+        <li>Justified Between</li>
+      </ul>
+      <div class="container-box space-flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+      </div>
+    </div>
+
+    <!--* Aligned Center -->
+    <div class="flex-container alcenter-flex-container">
+      <ul>
+        <li>Aligned Center</li>
+      </ul>
+      <div class="container-box alcenter-flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+      </div>
+    </div>
+
+    <!--* Wrap -->
+    <div class="flex-container wrap-flex-container">
+      <ul>
+        <li>Wrap</li>
+      </ul>
+      <div class="container-box wrap-flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+      </div>
+    </div>
+
+    <!--* Aligned Around -->
+    <div class="flex-container alround-flex-container">
+      <ul>
+        <li>Aligned Around (w/ Wrap)</li>
+      </ul>
+      <div class="container-box alround-flex">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+      </div>
+    </div>
+
+    <!--* Order -->
+    <div class="flex-container order-flex-container">
+      <ul>
+        <li>Order</li>
+      </ul>
+      <div class="container-box order-flex">
+        <div class="box" style="order: 5">1</div>
+        <div class="box" style="order: 3">2</div>
+        <div class="box" style="order: 1">3</div>
+        <div class="box" style="order: 4">4</div>
+        <div class="box" style="order: 2">5</div>
+        <div class="box" style="order: 6">6</div>
+        <div class="box" style="order: 9">7</div>
+        <div class="box" style="order: 8">8</div>
+        <div class="box" style="order: 7">9</div>
+      </div>
+    </div>
+
+    <!--* Grow -->
+    <div class="flex-container grow-flex-container">
+      <ul>
+        <li>Grow</li>
+      </ul>
+      <div class="container-box grow-flex">
+        <div class="box" style="flex-grow: 1">1</div>
+        <div class="box" style="flex-grow: 1">2</div>
+        <div class="box" style="flex-grow: 1">3</div>
+        <div class="box" style="flex-grow: 1">4</div>
+        <div class="box" style="flex-grow: 1">5</div>
+        <div class="box" style="flex-grow: 1">6</div>
+        <div class="box" style="flex-grow: 1">7</div>
+        <div class="box" style="flex-grow: 1">8</div>
+        <div class="box" style="flex-grow: 1">9</div>
+        <div class="box" style="flex-grow: 1">10</div>
+        <div class="box" style="flex-grow: 1">11</div>
+      </div>
+    </div>
+
+    <!--* Aligned Self -->
+    <div class="flex-container alself-flex-container">
+      <ul>
+        <li>Aligned Self</li>
+      </ul>
+      <div class="container-box alself-flex">
+        <div class="box" style="align-self: flex-end">1</div>
+        <div class="box" style="align-self: center">2</div>
+        <div class="box" style="align-self: stretch; height: auto">3</div>
+        <div class="box" style="align-self: flex-start">4</div>
+      </div>
+    </div>
   </body>
 </html>
